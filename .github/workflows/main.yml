@@ -46,7 +46,7 @@ jobs:
       - name: Deploy to GithubPages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN:  ${{ secret.GITHUB_TOKEN }}
+          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: mochawesome-report
 
