@@ -44,7 +44,7 @@ jobs:
       
       
       - name: Deploy to GithubPages
-        uses: JamesIves/github-pages-deploy-action@3.5.9
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN:  ${{ secrest.GITHUB_TOKEN }}
           BRANCH: gh-pages
